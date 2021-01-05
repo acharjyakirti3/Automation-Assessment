@@ -19,7 +19,7 @@ public class TestAddtoCart extends BaseTest{
 	@Test
 	public void addtocart() {
 		try {
-			Actions actions=new Actions(driver);
+/*			Actions actions=new Actions(driver);
 			WebElement mousemovetosignin= driver.findElement(By.id("nav-link-accountList-nav-line-1"));
 			actions.moveToElement(mousemovetosignin).build().perform();
 			mousemovetosignin.click();
@@ -38,7 +38,7 @@ public class TestAddtoCart extends BaseTest{
 			asr.Password().sendKeys(pwd);
 			Thread.sleep(4000);
 			
-			asr.LogInButton().click();
+			asr.LogInButton().click();*/
 			//from line number 22 to 41 will work only when i will accept the invitation on my phone as i signin with my number.
 			
 			AddtoCartPO atc= new AddtoCartPO(driver);
